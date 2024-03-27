@@ -1,3 +1,5 @@
 export * from "./header/Header"
 export * from "./pageContainer/PageContainer"
 export * from "./menu/Menu"
+export * from "./product/Product"
+export * from "./product/Products"

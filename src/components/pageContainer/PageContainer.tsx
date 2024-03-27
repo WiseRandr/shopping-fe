@@ -11,7 +11,7 @@ export function PageContainer({ children }: PropsWithChildren) {
         <div className="col-span-4 px-5 py-3 h-full">
           <Menu />
         </div>
-        <div className="col-span-8 py-3">{children}</div>
+        <div className="col-span-8 py-3 pr-3">{children}</div>
       </div>
     </div>
   )
