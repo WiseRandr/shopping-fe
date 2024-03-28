@@ -1,9 +1,12 @@
 import { PageContainer, Products } from "../../components";
+import { useProductStore } from "../../store";
 
 export function ProductsPage() {
+  const { products } = useProductStore();
+  
   return (
     <PageContainer>
-      <Products products={[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]} />
+      <Products products={products} />
     </PageContainer>
   )
 }
