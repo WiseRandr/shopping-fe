@@ -1,6 +1,6 @@
 import { IProduct } from "../../type";
 import { Button, Card, Chip, Icon, Image } from "../../ui";
-import productImage from "../../assets/product.png";
+import productImage from "../../assets/product.jpg";
 
 interface IProps {
   product: IProduct
@@ -9,7 +9,7 @@ interface IProps {
 export function Product({ product }: IProps) {
   return (
     <Card>
-      <div className="h-[350px]">
+      <div className="h-200px]">
         <Image src={productImage} className="d-block h-full w-full object-cover" />
       </div>
       <div className="flex flex-col p-5 bg-gray-100">
